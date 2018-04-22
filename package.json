@@ -1,0 +1,35 @@
+{
+  "name": "ngpress",
+  "version": "0.0.1",
+  "description": "Minimalistic doc generator with Angular component based layout system",
+  "main": "lib/index.js",
+  "bin": {
+    "ngpress": "bin/ngpress.js"
+  },
+  "scripts": {
+    "dev": "node bin/ngpress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaynex/ngpress.git"
+  },
+  "keywords": [
+    "angular",
+    "documentation",
+    "generator"
+  ],
+  "bugs": {
+    "url": "https://github.com/zaynex/ngpress/issues"
+  },
+  "homepage": "https://github.com/zaynex/ngpress#readme",
+  "engines": {
+    "node": ">=8"
+  },
+  "author": "Zaynex",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.0",
+    "commander": "^2.15.1",
+    "semver": "^5.5.0"
+  }
+}
